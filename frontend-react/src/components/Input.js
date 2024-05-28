@@ -3,7 +3,7 @@ import React from 'react'
 const Input = ({label, type = 'text', inputState, onChangeHandler, placeholder, error}) => {
     return (
         <div className='w-[100%] flex flex-col gap-[3px]'>
-            <label className='text-sm'>{label}</label>
+            <label className='text-sm '>{label}</label>
             <input 
                 type={type}
                 value={inputState}
